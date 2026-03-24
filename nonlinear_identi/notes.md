@@ -33,15 +33,15 @@
  5.  对于nonlinear metrix非线性度量 CANM 在这篇文章得到了升级。
 
 ## Nonlinear metric- CANM Convergence-area-based Nonlinearity Measure：  $\varDelta_0$
--   $\varDelta _{0j}=\frac{\left| \int_0^{t_f}{y_{True}dt} \right|-\left| \int_0^{t_f}{y_{lin}dt} \right|}{\left| \int_0^{t_f}{y_{True}dt} \right|}$  在j工作点，真实输出和线性化近似输出的差值比值
--   $\varDelta _{0nom}=\frac{\sum{\varDelta _{0P_j}}}{m}$  ：所有工作点的非线性程度
+- 在j工作点，真实输出和线性化近似输出的差值比值:  $\varDelta _{0j}=\frac{\left| \int_0^{t_f}{y_{True}dt} \right|-\left| \int_0^{t_f}{y_{lin}dt} \right|}{\left| \int_0^{t_f}{y_{True}dt} \right|}$  
+- 所有工作点的非线性程度:  $\varDelta _{0nom}=\frac{\sum{\varDelta _{0P_j}}}{m}$  
 - CANM依赖于工作点的非线性metric（度量）
 - 初始值和激励输入会影响  $\varDelta_0$
 - 本文基于SISO model进行仿真，对于stable unstable和marginally stable的  $varDelta_0$  进行了更新
 ### for stable system
 这样的稳定的系统存在settling time  $t_f$
 ### for marginally stable system
-这样的系统特征根在虚轴上（中心流形）, 他们的响应通常是持续震荡的，所以寻找  $t_f$  变为寻找  $t_cycle$  .  $\varDelta _{0_{margstable}=\frac{\left| \int_0^{t_{cycle}}{y_{True}dt} \right|-\left| \int_0^{t_{cycle}}{y_{lin}dt} \right|}{\left| \int_0^{t_{cycle}}{y_{True}dt} \right|}$
+这样的系统特征根在虚轴上（中心流形）, 他们的响应通常是持续震荡的，所以寻找  $t_f$  变为寻找  $t_cycle$  ：  $\varDelta _{0_{margstable}=\frac{\left| \int_0^{t_{cycle}}{y_{True}dt} \right|-\left| \int_0^{t_{cycle}}{y_{lin}dt} \right|}{\left| \int_0^{t_{cycle}}{y_{True}dt} \right|}$
 ### for unstable system
 nonlinear metric  $\varDelta_0$  变为分析他的输出轨迹，通过分成n个时间间隔  $(t_1, t_2,\cdots,t_x,\cdots,t_n)$  
 对于每个时间间隔  $t_x$  和  $t_{x-1}$  得到  $\varDelta_{R_x}$  , 最后得到  $\varDelta _{0_unstable}=\frac{\sum{\varDelta _{0R_x}}}{n}$
