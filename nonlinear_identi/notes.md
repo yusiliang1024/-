@@ -33,7 +33,7 @@
  5.  对于nonlinear metrix非线性度量 CANM 在这篇文章得到了升级。
 
 ## Nonlinear metric- CANM Convergence-area-based Nonlinearity Measure：  $\varDelta_0$
-- $$\varDelta _{0j}=\frac{\left| \int_0^{t_f}{y_{True}dt} \right|-\left| \int_0^{t_f}{y_{lin}dt} \right|}{\left| \int_0^{t_f}{y_{True}dt} \right|}$$ 在j工作点，真实输出和线性化近似输出的差值比值
+- $$\varDelta _{0j}=\frac{\left| \int_0^{t_f}{y_{True}dt} \right|-\left| \int_0^{t_f}{y_{lin}dt} \right|}{\left| \int_0^{t_f}{y_{True}dt} \right|}$$  在j工作点，真实输出和线性化近似输出的差值比值
 - $$\varDelta _{0nom}=\frac{\sum{\varDelta _{0P_j}}}{m}$$  ：所有工作点的非线性程度
 - CANM依赖于工作点的非线性metric（度量）
 - 初始值和激励输入会影响  $\varDelta_0$
