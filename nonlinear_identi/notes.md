@@ -43,7 +43,7 @@
 ### for marginally stable system
 这样的系统特征根在虚轴上（中心流形）, 他们的响应通常是持续震荡的，所以寻找  $t_f$  变为寻找  $t_cycle$  .  $\varDelta _{0\_marg.stable}=\frac{\left| \int_0^{t_{cycle}}{y_{True}dt} \right|-\left| \int_0^{t_{cycle}}{y_{lin}dt} \right|}{\left| \int_0^{t_{cycle}}{y_{True}dt} \right|}$
 ### for unstable system
-nonlinear metric  $\varDelta_0$  变为分析他的输出轨迹，通过分成n个时间间隔  $(t_1, t_2,\cdots,t_x,\cdots,t_n)$ 
+nonlinear metric  $\varDelta_0$  变为分析他的输出轨迹，通过分成n个时间间隔  $(t_1, t_2,\cdots,t_x,\cdots,t_n)$  
 对于每个时间间隔  $t_x$  和  $t_{x-1}$  得到  $\varDelta_{R_x}$  , 最后得到  $\varDelta _{0_unstable}=\frac{\sum{\varDelta _{0R_x}}}{n}$$
 ### Nonlinearity level
 <img width="418" height="85" alt="image" src="https://github.com/user-attachments/assets/9267f93e-1109-4d2c-8792-56f04ed75f53" />
