@@ -37,7 +37,7 @@
 - 所有工作点的非线性程度:  $\varDelta _{0nom}=\frac{\sum{\varDelta _{0P_j}}}{m}$  
 - CANM依赖于工作点的非线性metric（度量）
 - 初始值和激励输入会影响  $\varDelta_0$
-- 本文基于SISO model进行仿真，对于stable unstable和marginally stable的  $varDelta_0$  进行了更新
+- 本文基于SISO model进行仿真，对于stable unstable和marginally stable的  $\varDelta_0$  进行了更新
 ### for stable system
 这样的稳定的系统存在settling time  $t_f$
 ### for marginally stable system
