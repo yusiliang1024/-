@@ -20,6 +20,7 @@
   1. 对于线性系统模型降阶方法做了概括：Hankel operator， proper orthogonal decomposition和rational interpolation。
   2. 对于非线性系统则总结了一些方法：Balancing and balanced approximation，Hankel-norm近似，正交分解（POD）
   3. 基于上述方法，针对线性和非线性以及Loewner提出了一种interconnection framework
+  4. 
 # Nonlinear system identification in coherence with nonlinearity measure for dynamic physical systems—case studies
 ## Significanse：
  1. 对于物理非线性系统的辨识，提出了
@@ -28,5 +29,6 @@
     - parametric NL2SQ
  2.  对特定工作区域适用nonlinearity measure CANM来进行非线性度的测量。
     - CANM center-analytic normal form measure，量化非线性程度，即偏离其线性化近似的程度
- 4.  对于非线性系统的辨识 适用一种nonlinearity level $\delta_0$ 产生最小均方误差。
+ 4.  对于非线性系统的辨识 适用一种nonlinearity level  $\delta_0$  产生最小均方误差。
  5.  对于nonlinear metrix非线性度量 CANM 在这篇文章得到了升级。
+## Nonlinear metric  $\delta_0$
